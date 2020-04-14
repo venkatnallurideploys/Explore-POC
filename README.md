@@ -1,2 +1,2 @@
 # Explore-POC
-Practice GIT commands and setup COCD pipeline
+Practice GIT commands and setup CICD pipeline
