@@ -1,0 +1,16 @@
+
+<suite thread-count="1" name="EPI server suite" verbose="1">
+<Listeners>
+<Listener 
+  class-name = "episerver.listener.ExtentReportListener.ExtentReportListener" />
+</Listeners>
+  <test name="AEM workflow Testing" >
+      <classes>     
+       <class name="thebigword.aem.testcases.Configpagetest" />
+       <class name="thebigword.aem.testcases.Homepagetest" /> 
+       <class name="thebigword.aem.testcases.ProjectpageTest" /> 
+       <class name="thebigword.aem.testcases.SitesTest" />    
+       <class name="thebigword.aem.testcases.Loginpagetest" />                
+    </classes>
+  </test>
+</suite>
